@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+    background: #2d1547a9;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2f0743b0, #41295ad7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2f0743da, #41295a); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+h1{
+    text-align: center;
+    padding: 25px 0px 0px 0px;
+    font-weight: 800;
+}
+
+form{
+    background: #ffffff;
+    width: 30%;
+    height: 95%;
+    padding: 0px 10px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    margin: 100px 0px 10px 0px;
+   
+} 
+
+img{
+    width: 90%;
+    padding: auto;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+    transition: all .5s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.3);  
+}
+
+.boton{
+    color: white;
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background: #000000; 
+    font-size: 15px;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    border: 2px;
+    cursor: pointer;
+    margin: 0px 200px 0px 100px;
+}
+
+.boton:hover{
+    width: 220px;
+    background: #603ab8;
+    box-shadow: 0 0 10px #211996, 0 0 20px, #6943c2 0 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:1100px){
+    form{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+         width: 100%;
+        height: 500px;
+        
+    
+    }
+    
+    h1{
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+        font-weight: 20px;
+    }
+    
+    form{
+        width: 80%;
+        height: 92%;
+        padding: 0px 2px 0px 0px;
+        border-radius: 10px;
+        margin: 5px 0px 5px 0px;
+       
+    } 
+    
+    img{
+        width: 100%;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+        transition: all .5s ease-in-out;
+    }
+
+    img:hover{
+        transform: scale(1.3);  
+    }
+    
+    .boton{
+        
+        height: 50px;
+        width: 150px;
+        font-size: 15px;
+        transition: all .5s ease-in-out;
+        margin: 0px 20px 0px 45px;
+    }
+    
+    .boton:hover{
+        width: 220px;
+        background: #603ab8;
+        box-shadow: 0 0 10px #211996, 0 0 20px, #6943c2 0 0 20px;
+    }
+    
+}
